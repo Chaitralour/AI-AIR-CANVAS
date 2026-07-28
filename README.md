@@ -1,18 +1,6 @@
 # 🎨 AI Air Canvas
 
-A gesture-controlled drawing application built using **Python**, **OpenCV**, and **MediaPipe**. The application uses real-time hand tracking to let users draw on a virtual canvas using hand gestures.
-
----
-
-## 📸 Screenshots
-
-### Home Screen
-
-![Home](screenshots/home.png)
-
-### Drawing Demo
-
-![Drawing](screenshots/drawing.png)
+A gesture-controlled drawing application built using **Python**, **OpenCV**, and **MediaPipe**. The application enables users to draw on a virtual canvas using hand gestures captured through a webcam.
 
 ---
 
@@ -20,13 +8,13 @@ A gesture-controlled drawing application built using **Python**, **OpenCV**, and
 
 - 🖐️ Real-time hand tracking
 - 🎨 Draw using your index finger
-- ✌️ Selection mode with two fingers
-- 🌈 Multiple brush colors
+- ✌️ Selection mode using hand gestures
+- 🌈 Multiple drawing colors
 - 🧽 Eraser tool
 - 🗑️ Clear canvas
 - 💾 Save drawings
-- 📈 FPS counter
-- 👋 Supports two-hand detection
+- 📈 FPS (Frames Per Second) counter
+- 👋 Two-hand detection support
 
 ---
 
@@ -42,24 +30,35 @@ A gesture-controlled drawing application built using **Python**, **OpenCV**, and
 ## 📂 Project Structure
 
 ```
-AI-AIR-CANVAS
+AI-AIR-CANVAS/
 │── main.py
 │── requirements.txt
 │── README.md
 │── .gitignore
-│── screenshots
-│   ├── home.png
-│   └── drawing.png
+│── draw.png
+│── home.png
 ```
 
 ---
 
 ## 🚀 Installation
 
+Clone the repository:
+
 ```bash
 git clone https://github.com/Chaitralour/AI-AIR-CANVAS.git
 cd AI-AIR-CANVAS
+```
+
+Install the required libraries:
+
+```bash
 pip install -r requirements.txt
+```
+
+Run the project:
+
+```bash
 python main.py
 ```
 
@@ -67,22 +66,22 @@ python main.py
 
 ## 🎮 Controls
 
-| Gesture | Action |
-|---------|--------|
+| Gesture / Key | Action |
+|---------------|--------|
 | ☝️ Index Finger | Draw |
 | ✌️ Index + Middle Finger | Selection Mode |
-| `S` | Save Drawing |
-| `Q` | Quit Application |
+| **S** | Save Drawing |
+| **Q** | Quit Application |
 
 ---
 
 ## 🔮 Future Improvements
 
 - Undo / Redo
-- Gesture-based brush size
+- Adjustable brush size
 - Shape recognition
 - Handwriting recognition
-- Better UI with icons
+- Modern toolbar icons
 
 ---
 
